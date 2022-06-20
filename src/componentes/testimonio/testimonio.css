@@ -1,0 +1,76 @@
+/* .contenedor-cartas{
+    display: flex;
+    gap: 1rem;
+    
+} */
+
+.contenedor-carta{
+position: relative;
+display: flex;
+flex-direction: column;
+width: 176px;
+height: 235px;
+padding: 15px;
+margin: 12px;
+
+}
+.carta{
+    width: 176px;
+    height: 235px;
+    border-radius: 10px;
+}
+
+.estado{
+position: absolute;
+background-color: white;
+border-radius: 5px;
+margin: 5px;
+padding: 0px 8px;
+text-transform: uppercase;
+color: chartreuse;
+}
+
+.start{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+.section-rate{
+    display: flex;
+    margin-right: 10px;
+    
+    padding: 5px;
+    width: max-content;
+    gap: 1px;
+    
+}
+
+
+.precio{
+    font-weight: bold;
+}
+
+
+.lessons{
+    
+}
+
+.precio{
+    margin: 0px -5px;
+}
+
+.usa{
+    color: #918E9B;
+}
+
+.contenedor-carta p{
+    margin: 0;
+    margin: 3px;
+    
+}
+
+.parrafo-2{
+    width: max-content;
+
+}
